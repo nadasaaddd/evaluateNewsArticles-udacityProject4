@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+  font-size: 18px;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f1c40f;
+}
+
+header .navigation {
+  display: flex;
+  gap: 20px;
+}
+
+header .navigation a {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 8px 16px;
+}
+
+header .navigation a:hover {
+  background-color: #444;
+  border-radius: 4px;
+}
